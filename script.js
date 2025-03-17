@@ -12,4 +12,14 @@ let biglietto = 0.21 * utenteKm;
 
 let prezzoFinale;
 
-if()
+if(utenteEta < 18){
+    prezzoFinale = biglietto - biglietto * 0.20;
+}
+
+else if(utenteEta >= 65){
+    prezzoFinale = biglietto - biglietto *0.40;
+}
+
+else{
+    prezzoFinale = biglietto;
+}
