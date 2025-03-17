@@ -4,9 +4,9 @@
 // - va applicato uno sconto del 40% per gli over 65.
 // - L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo). Questo richiederà un minimo di ricerca.
 
-let utenteKm = prompt('Inserisci il numero di km che desideri percorrere');
+let utenteKm = parseInt(prompt('Inserisci il numero di km che desideri percorrere'));
 
-let utenteEta = prompt('Inserisci la tua età');
+let utenteEta = parseInt(prompt('Inserisci la tua età'));
 
 let biglietto = 0.21 * utenteKm;
 
@@ -24,4 +24,4 @@ else{
     prezzoFinale = biglietto;
 }
 
-console.log(`Il prezzo finale da pagare è di ${prezzoFinale}`);
+console.log(`Il prezzo finale da pagare è di ${prezzoFinale.toFixed(2)}`);
