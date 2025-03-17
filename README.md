@@ -7,6 +7,7 @@ Il programma dovrà chiedere all'utente il numero di chilometri che vuole percor
 Creare una variabile per chiedere il numero km.
 Creare una variabile per chiedere l'età dell'utente.
 Creare una variabile che decreti il prezzo del biglietto in base ai km.
+Creare una variabile vuota in cui inserire il costo finale.
 Creare un if che applichi uno sconto sui minorenni.
 Creare un if che applichi uno sconto sugli over 65.
 Stampare in output il risultato.

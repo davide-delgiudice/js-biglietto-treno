@@ -10,3 +10,6 @@ let utenteEta = parseInt(prompt('Inserisci la tua età'));
 
 let biglietto = 0.21 * utenteKm;
 
+let prezzoFinale;
+
+if()
